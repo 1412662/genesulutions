@@ -1,0 +1,42 @@
+div {
+border: 1px;
+}
+.ketluan{
+background-color: #F0E5CF;
+font-size: 16px;
+}
+.ketqua{
+background-color: #F0E5CF;
+font-size: 16px;
+}
+.header{
+background-color: #F0E5CF;
+font-size: 13.333px;
+}
+.table_bolder
+{
+ font-weight: bold;
+}
+.table{
+font-size: 13.333px;
+}
+.loaiphantich{
+font-size: 16px;
+}
+.img {
+  max-width: 50%;
+  height: auto;
+  position:relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media print {
+    body{
+        width: 21cm;
+        height: 29.7cm;
+        margin: 30mm 20mm 30mm 30mm;
+        /* change the margins as you want them to be. */
+   }
+   #footer {page-break-inside: avoid;} /* avoid to break inside an element, class, id*/
+   hr {page-break-before: always;}
+}
